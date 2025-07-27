@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -29,13 +29,9 @@ function Header() {
 
           {/* Auth Buttons */}
           <div className="flex items-center space-x-4">
-            <a href="#" className="text-gray-700 hover:text-purple-600 transition-colors duration-300">Log In</a>
-            <a
-              href="#"
-              className="bg-gradient-to-r from-purple-600 to-pink-500 text-white px-5 py-2 rounded-full font-semibold shadow-md hover:shadow-lg transition-all duration-300"
-            >
-              Get Started
-            </a>
+            <Link to="/login" className="px-4 py-2 border border-gray-400 text-gray-700 rounded-full hover:border-purple-500 hover:text-purple-600 transition-colors duration-300">Log In</Link>
+            <Link to="/sign-up" className="bg-gradient-to-r from-purple-600 to-pink-500 text-white px-5 py-2 rounded-full font-semibold shadow-md hover:shadow-lg transition-all duration-300"
+            > Sign Up</Link>
           </div>
         </div>
       </div>
