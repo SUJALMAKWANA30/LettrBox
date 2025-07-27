@@ -2,16 +2,16 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className="relative w-full h-[70vh] min-h-[700px] max-h-[1080px] overflow-hidden bg-gradient-to-b from-white via-orange-300 to-orange-600 font-sans">
+    <footer className="relative w-full h-[70vh] max-h-[1080px] overflow-hidden bg-gradient-to-b from-white via-orange-300 to-orange-600 font-sans">
       
       {/* Main Content */}
       <div className="relative h-full max-w-7xl mx-auto px-6 py-8 sm:px-8 text-white z-10">
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-[#d94828] drop-shadow-lg select-none">
-            <h1 className="text-[18vw] sm:text-9xl md:text-[10rem] lg:text-[12rem] font-black uppercase leading-none tracking-normal">
+            <h1 className="text-4xl sm:text-7xl md:text-8xl lg:text-9xl font-black uppercase leading-none tracking-normal">
               LettrBox
             </h1>
-            <h1 className="text-6xl sm:text-8xl uppercase tracking-widest font-[Bebas Neue]">
+            <h1 className="text-2xl sm:text-4xl uppercase tracking-widest font-[Bebas Neue]">
               APPLY IN A SNAP
             </h1>
           </div>

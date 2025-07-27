@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 function Header() {
   return (
+    <>
     <header className="bg-white/70 backdrop-blur-md sticky top-0 z-50 shadow-sm">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
@@ -18,8 +20,9 @@ function Header() {
 
           {/* Nav Links */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-gray-700 hover:text-purple-600 transition-colors duration-300">Home</a>
-            <a href="#" className="text-gray-700 hover:text-purple-600 transition-colors duration-300">Templates</a>
+            {/* <Link to="/Login" className='text-[13px] link font-[500] transition'>Login</Link> */}
+            <Link to="/" className="text-gray-700 hover:text-purple-600 transition-colors duration-300">Home</Link>
+            <Link to="/application" className="text-gray-700 hover:text-purple-600 transition-colors duration-300">Applications</Link>
             <a href="#" className="text-gray-700 hover:text-purple-600 transition-colors duration-300">About Us</a>
             <a href="#" className="text-gray-700 hover:text-purple-600 transition-colors duration-300">Contact Us</a>
           </nav>
@@ -37,6 +40,7 @@ function Header() {
         </div>
       </div>
     </header>
+    </>
   );
 }
 
