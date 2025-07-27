@@ -14,7 +14,7 @@ function Home() {
       <Hero />
       <HowItWorks />
       <WhyChooseUs />
-      <Template />
+      {/* <Template /> */}
       <Testimonials />
       <Footer />
     </>
