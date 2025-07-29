@@ -10,8 +10,8 @@ function Header() {
           
           {/* Logo and Brand */}
           <div className="flex items-center space-x-2">
-            <div className="bg-gradient-to-r from-purple-600 to-pink-500 p-2 rounded-full text-white">
-              {/* <FiFileText size={20} /> */}
+            <div className="w-10 h-10 flex items-center justify-center">
+              <img src="/Lettrbox-logo.png" alt="Logo" className="w-8 h-8" />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-transparent bg-clip-text">
               LettrBox
